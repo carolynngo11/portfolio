@@ -1,4 +1,5 @@
-body {
+html, body {
+    min-height: auto;
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;
 }
@@ -6,15 +7,17 @@ body {
 header {
     display: flex;
     justify-content: center;
-    background-color: #9E7682;
+    background-color: #6E6A6F;
     font-size: x-large;
+    border-radius: 10px;
 }
 
 .navlinks {
     display: flex;
     justify-content: flex-end;
-    background-color: #605770;
+    background-color: #89948a;
     justify-content: space-around;
+    border-radius: 5px;
 }
 
 a:link {
@@ -33,7 +36,34 @@ a:active {
     color: #9E7682;
 }
 
-.info {
-    display: flex;
+.center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
     
+}
+  
+div {
+    width: 300px;
+    border: 5px;
+    padding: 80px;
+    margin: 20px;
+    border-radius: 100px;
+    text-align: center;
+}
+  
+.me {
+      background-color:#AA968A;
+}
+
+.work {
+    background-color: #BFAFA6;
+}
+
+.contact {
+      background-color: #D4D2D5;
+}
+
+.resume {
+    background-color: #6E6A6F;
 }
