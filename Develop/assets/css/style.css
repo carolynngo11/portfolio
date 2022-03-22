@@ -1,0 +1,39 @@
+body {
+    background-color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;
+}
+
+header {
+    display: flex;
+    justify-content: center;
+    background-color: #9E7682;
+    font-size: x-large;
+}
+
+.navlinks {
+    display: flex;
+    justify-content: flex-end;
+    background-color: #605770;
+    justify-content: space-around;
+}
+
+a:link {
+    color: white;
+}
+
+a:hover {
+    color: #EDCB96;
+}
+
+a:visited {
+    color: #F7C4A5;
+}
+  
+a:active {
+    color: #9E7682;
+}
+
+.info {
+    display: flex;
+    
+}
