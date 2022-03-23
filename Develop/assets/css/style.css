@@ -51,12 +51,32 @@ div {
     border-radius: 100px;
     text-align: center;
 }
-  
+
+aside {
+    
+    float: left;
+    margin: 0 1.5%;
+    width: 63%;
+}
+
+main {
+    float: right;
+    width: 300px;
+    border: 5px;
+    padding: 80px;
+    margin: 20px;
+    border-radius: 100px;
+    text-align: left;
+    background-color: #6E6A6F;
+    font-size: larger;
+}
+
 .me {
       background-color:#AA968A;
 }
 
 .work {
+    background-image: url(coding.jpg);
     background-color: #BFAFA6;
 }
 
