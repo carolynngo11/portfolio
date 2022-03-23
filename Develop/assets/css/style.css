@@ -40,11 +40,17 @@ a:active {
     display: block;
     margin-left: auto;
     margin-right: auto;
-    
+    padding-bottom: 90px;
+    border-top-width: 90px;
+    padding-top: 90px;
 }
-  
+
+aside {
+    float: left;
+}
+
 div {
-    width: 300px;
+    width: 400px;
     border: 5px;
     padding: 80px;
     margin: 20px;
@@ -52,23 +58,14 @@ div {
     text-align: center;
 }
 
-aside {
-    
-    float: left;
-    margin: 0 1.5%;
-    width: 63%;
-}
-
-main {
-    float: right;
-    width: 300px;
-    border: 5px;
-    padding: 80px;
-    margin: 20px;
-    border-radius: 100px;
+.info {
+    float: inline-start;
+    padding-bottom: 1000px;
+    padding-top: 10px;
     text-align: left;
     background-color: #6E6A6F;
     font-size: larger;
+    border-radius: 10px;
 }
 
 .me {
@@ -76,7 +73,6 @@ main {
 }
 
 .work {
-    background-image: url(coding.jpg);
     background-color: #BFAFA6;
 }
 
@@ -85,5 +81,25 @@ main {
 }
 
 .resume {
-    background-color: #6E6A6F;
+    background-color: #4c494d;
+}
+
+.aboutMe {
+
+}
+
+.myWork{
+
+}
+
+.myContact {
+
+}
+
+.myResume {
+
+}
+
+footer {
+    
 }
