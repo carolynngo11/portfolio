@@ -1,4 +1,5 @@
 html, body {
+    scroll-behavior: smooth;
     min-height: auto;
     background-color: white;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;
@@ -60,7 +61,7 @@ div {
 
 .info {
     float: inline-start;
-    padding-bottom: 400px;
+    padding-bottom: 200px;
     padding-top: 10px;
     text-align: left;
     background-color: #6E6A6F;
@@ -90,8 +91,8 @@ div {
 }
 
 .myWork{
-    padding-top: 110px;
-    padding-bottom: 100px;
+    padding-top: 55px;
+    padding-bottom: 25px;
 }
 
 .myContact {
@@ -105,5 +106,9 @@ div {
 }
 
 footer {
-    
+    background-color: #89948a;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
 }
