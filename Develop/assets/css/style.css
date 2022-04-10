@@ -2,14 +2,16 @@ html, body {
     scroll-behavior: smooth;
     min-height: auto;
     background-color: rgb(231, 231, 231);
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif; color: white;
+    font-family: 'NTR', sans-serif;
+    font-size: 15px;
+    color: white;
 }
 
 header {
     display: flex;
     justify-content: center;
     background-color: #6E6A6F;
-    font-size: x-large;
+    font-size: 30px;
     border-radius: 10px;
 }
 
@@ -19,6 +21,7 @@ header {
     background-color: #89948a;
     justify-content: space-around;
     border-radius: 5px;
+    font-size: 25px;
 }
 
 a:link {
@@ -69,7 +72,8 @@ div {
 }
 
 .me {
-      background-color:#AA968A;
+    background-color:#AA968A;
+      
 }
 
 .work {
@@ -77,7 +81,7 @@ div {
 }
 
 .contact {
-      background-color: #D4D2D5;
+    background-color: #D4D2D5;
 }
 
 .resume {
@@ -85,15 +89,7 @@ div {
 }
 
 .aboutMe, .myWork {
-    margin-top: 90px;
-}
-
-footer {
-    background-color: #89948a;
-    text-align: center;
-    margin: 20px;
-    padding: 5px;
-    border-radius: 20px;
+    margin-top: 100px;
 }
 
 .row {
@@ -103,10 +99,18 @@ footer {
 }
 
  .myResume {
-     padding-top: 160px;
+    padding-top: 160px;
  }
 
 .column {
     flex: 33.33%;
     padding: 5px;
+}
+
+footer {
+    background-color: #89948a;
+    text-align: center;
+    margin: 20px;
+    padding: 5px;
+    border-radius: 20px;
 }
