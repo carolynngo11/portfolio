@@ -60,7 +60,7 @@ div {
 
 .info {
     float: inline-start;
-    padding-bottom: 500px;
+    padding-bottom: 200px;
     padding-top: 10px;
     text-align: left;
     background-color: #6E6A6F;
@@ -88,8 +88,6 @@ div {
     margin-top: 90px;
 }
 
-
-
 footer {
     background-color: #89948a;
     text-align: center;
@@ -100,9 +98,14 @@ footer {
 
 .row {
     display: flex;
-    padding-top: 70px;
+    padding: 20px;
+    padding-top: 50px;
 }
-  
+
+ .myResume {
+     padding-top: 160px;
+ }
+
 .column {
     flex: 33.33%;
     padding: 5px;
