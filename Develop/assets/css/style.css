@@ -7,11 +7,15 @@ html, body {
     color: white;
 }
 
+header, .navlinks {
+    margin: 20px;
+    padding: 5px;
+}
+
 header {
     display: flex;
     justify-content: center;
     background-color: #6E6A6F;
-    font-size: 30px;
     border-radius: 10px;
 }
 
@@ -30,10 +34,11 @@ a:link {
 
 a:hover {
     color: #EDCB96;
+    transform: scale(1.3);
 }
 
 a:visited {
-    color: #F7C4A5;
+    color: #ebd0c0;
 }
   
 a:active {
@@ -49,12 +54,15 @@ a:active {
     padding-top: 90px;
 }
 
-aside {
-    float: left;
+h1 {
+    text-align:center; font-weight: 900;
+}
+
+p {
+    font-size: x-large;
 }
 
 div {
-    width: 400px;
     padding: 80px;
     margin: 20px;
     border-radius: 100px;
@@ -63,7 +71,8 @@ div {
 
 .info {
     float: inline-start;
-    padding-bottom: 200px;
+    padding-top: 100px;
+    padding-bottom: 100px;
     padding-top: 10px;
     text-align: left;
     background-color: #6E6A6F;
@@ -73,7 +82,6 @@ div {
 
 .me {
     background-color:#AA968A;
-      
 }
 
 .work {
@@ -87,20 +95,6 @@ div {
 .resume {
     background-color: #4c494d;
 }
-
-.aboutMe, .myWork {
-    margin-top: 100px;
-}
-
-.row {
-    display: flex;
-    padding: 20px;
-    padding-top: 50px;
-}
-
- .myResume {
-    padding-top: 160px;
- }
 
 .column {
     flex: 33.33%;
