@@ -8,5 +8,5 @@ In this project I have built a personal website to display my portfolio from scr
 
 ![portfolio-screenshot](https://user-images.githubusercontent.com/99929883/162600013-877bc4d0-b759-4a16-b7a6-4fedadec029b.JPG)
 
-#### Deployment Application Link: https://carolynngo11.github.io/portfolio/
+#### Deployment Application Link: https://carolynngo11.github.io/my-react-portfolio/
 ![](https://img.shields.io/badge/License-MIT-yellowgreen)
